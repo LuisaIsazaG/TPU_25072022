@@ -8,10 +8,10 @@ from pycoral.adapters import classify
 
 
 # the TFLite converted to be used with edgetpu
-modelPath = '<PATH_TO_MODEL>'
+modelPath = 'https://github.com/LuisaIsazaG/TPU_25072022/blob/main/25072022_LIG_TM2.tflite'
 
 # The path to labels.txt that was downloaded with your model
-labelPath = '<PATH_TO_LABELS>'
+labelPath = 'https://github.com/LuisaIsazaG/TPU_25072022/blob/main/labels.txt'
 
 # This function takes in a TFLite Interptere and Image, and returns classifications
 def classifyImage(interpreter, image):
